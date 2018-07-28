@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE26558331B8AF236AF88C6E /* Pods_Resturant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BA774E080E44EB9C60D848 /* Pods_Resturant.framework */; };
+		D90A82B120CB49DB00AC7D83 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A82B020CB49DB00AC7D83 /* CustomButton.swift */; };
+		D91BCD8620D1E25800A00038 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BCD8520D1E25800A00038 /* Home.swift */; };
+		D91BCD8820D1E27700A00038 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BCD8720D1E27700A00038 /* Category.swift */; };
+		D91BCD8A20D1E29400A00038 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BCD8920D1E29400A00038 /* Favorites.swift */; };
+		D91BCD8C20D1E2B500A00038 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BCD8B20D1E2B500A00038 /* Profile.swift */; };
+		D91BCD8F20D1E72200A00038 /* BigStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91BCD8E20D1E72200A00038 /* BigStoryboard.storyboard */; };
+		D92247FA20CC528100BB64E5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92247F920CC528100BB64E5 /* LoginVC.swift */; };
+		D92247FC20CC5B9000BB64E5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92247FB20CC5B8F00BB64E5 /* CustomTextField.swift */; };
 		D94C9B4020CAFE4E002D7679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94C9B3F20CAFE4E002D7679 /* AppDelegate.swift */; };
 		D94C9B4220CAFE4E002D7679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94C9B4120CAFE4E002D7679 /* ViewController.swift */; };
 		D94C9B4520CAFE4E002D7679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94C9B4320CAFE4E002D7679 /* Main.storyboard */; };
 		D94C9B4720CAFE4E002D7679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94C9B4620CAFE4E002D7679 /* Assets.xcassets */; };
 		D94C9B4A20CAFE4E002D7679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94C9B4820CAFE4E002D7679 /* LaunchScreen.storyboard */; };
+		D94C9B5320CAFF83002D7679 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94C9B5220CAFF83002D7679 /* CustomColor.swift */; };
+		D97648B720CCC92C00E76E31 /* CustomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97648B620CCC92C00E76E31 /* CustomNavigation.swift */; };
+		D97648B920CCC96300E76E31 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97648B820CCC96300E76E31 /* SignupVC.swift */; };
+		D9B9465220D1D65F00004F6B /* flavor_icons in Resources */ = {isa = PBXBuildFile; fileRef = D9B9465120D1D65E00004F6B /* flavor_icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6BA774E080E44EB9C60D848 /* Pods_Resturant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resturant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D380A4DBC9FD125304683A32 /* Pods-Resturant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resturant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resturant/Pods-Resturant.debug.xcconfig"; sourceTree = "<group>"; };
+		D90A82B020CB49DB00AC7D83 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D91BCD8520D1E25800A00038 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D91BCD8720D1E27700A00038 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D91BCD8920D1E29400A00038 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		D91BCD8B20D1E2B500A00038 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D91BCD8E20D1E72200A00038 /* BigStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BigStoryboard.storyboard; sourceTree = "<group>"; };
+		D92247F920CC528100BB64E5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D92247FB20CC5B8F00BB64E5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		D94C9B3C20CAFE4E002D7679 /* Resturant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resturant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94C9B3F20CAFE4E002D7679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D94C9B4120CAFE4E002D7679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,11 @@
 		D94C9B4620CAFE4E002D7679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D94C9B4920CAFE4E002D7679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D94C9B4B20CAFE4E002D7679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D94C9B5220CAFF83002D7679 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		D97648B620CCC92C00E76E31 /* CustomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
+		D97648B820CCC96300E76E31 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		D9B9465120D1D65E00004F6B /* flavor_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flavor_icons; sourceTree = "<group>"; };
+		DB06514C2E8F87F830DCE52B /* Pods-Resturant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resturant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resturant/Pods-Resturant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE26558331B8AF236AF88C6E /* Pods_Resturant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99363B0044A75DCE35B82487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA774E080E44EB9C60D848 /* Pods_Resturant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEC32B86452964793B8720DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D380A4DBC9FD125304683A32 /* Pods-Resturant.debug.xcconfig */,
+				DB06514C2E8F87F830DCE52B /* Pods-Resturant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D91BCD8420D1E21800A00038 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				D91BCD8520D1E25800A00038 /* Home.swift */,
+				D91BCD8720D1E27700A00038 /* Category.swift */,
+				D91BCD8920D1E29400A00038 /* Favorites.swift */,
+				D91BCD8B20D1E2B500A00038 /* Profile.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		D91BCD8D20D1E2CC00A00038 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D94C9B4120CAFE4E002D7679 /* ViewController.swift */,
+				D92247F920CC528100BB64E5 /* LoginVC.swift */,
+				D97648B820CCC96300E76E31 /* SignupVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		D94C9B3320CAFE4E002D7679 = {
 			isa = PBXGroup;
 			children = (
 				D94C9B3E20CAFE4E002D7679 /* Resturant */,
 				D94C9B3D20CAFE4E002D7679 /* Products */,
+				AEC32B86452964793B8720DB /* Pods */,
+				99363B0044A75DCE35B82487 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +123,29 @@
 		D94C9B3E20CAFE4E002D7679 /* Resturant */ = {
 			isa = PBXGroup;
 			children = (
+				D91BCD8D20D1E2CC00A00038 /* Login */,
+				D91BCD8420D1E21800A00038 /* Tabs */,
+				D94C9B5120CAFF62002D7679 /* Custom */,
 				D94C9B3F20CAFE4E002D7679 /* AppDelegate.swift */,
-				D94C9B4120CAFE4E002D7679 /* ViewController.swift */,
 				D94C9B4320CAFE4E002D7679 /* Main.storyboard */,
+				D91BCD8E20D1E72200A00038 /* BigStoryboard.storyboard */,
 				D94C9B4620CAFE4E002D7679 /* Assets.xcassets */,
+				D9B9465120D1D65E00004F6B /* flavor_icons */,
 				D94C9B4820CAFE4E002D7679 /* LaunchScreen.storyboard */,
 				D94C9B4B20CAFE4E002D7679 /* Info.plist */,
 			);
 			path = Resturant;
+			sourceTree = "<group>";
+		};
+		D94C9B5120CAFF62002D7679 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				D94C9B5220CAFF83002D7679 /* CustomColor.swift */,
+				D90A82B020CB49DB00AC7D83 /* CustomButton.swift */,
+				D92247FB20CC5B8F00BB64E5 /* CustomTextField.swift */,
+				D97648B620CCC92C00E76E31 /* CustomNavigation.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D94C9B4E20CAFE4E002D7679 /* Build configuration list for PBXNativeTarget "Resturant" */;
 			buildPhases = (
+				93C00F0DDD53488092C85E62 /* [CP] Check Pods Manifest.lock */,
 				D94C9B3820CAFE4E002D7679 /* Sources */,
 				D94C9B3920CAFE4E002D7679 /* Frameworks */,
 				D94C9B3A20CAFE4E002D7679 /* Resources */,
+				F447955EEB584E2833E8C6B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,20 +210,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				D94C9B4A20CAFE4E002D7679 /* LaunchScreen.storyboard in Resources */,
+				D9B9465220D1D65F00004F6B /* flavor_icons in Resources */,
 				D94C9B4720CAFE4E002D7679 /* Assets.xcassets in Resources */,
 				D94C9B4520CAFE4E002D7679 /* Main.storyboard in Resources */,
+				D91BCD8F20D1E72200A00038 /* BigStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93C00F0DDD53488092C85E62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Resturant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F447955EEB584E2833E8C6B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Resturant/Pods-Resturant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resturant/Pods-Resturant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D94C9B3820CAFE4E002D7679 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97648B920CCC96300E76E31 /* SignupVC.swift in Sources */,
+				D91BCD8C20D1E2B500A00038 /* Profile.swift in Sources */,
+				D91BCD8820D1E27700A00038 /* Category.swift in Sources */,
+				D97648B720CCC92C00E76E31 /* CustomNavigation.swift in Sources */,
+				D90A82B120CB49DB00AC7D83 /* CustomButton.swift in Sources */,
 				D94C9B4220CAFE4E002D7679 /* ViewController.swift in Sources */,
+				D91BCD8A20D1E29400A00038 /* Favorites.swift in Sources */,
+				D91BCD8620D1E25800A00038 /* Home.swift in Sources */,
+				D92247FC20CC5B9000BB64E5 /* CustomTextField.swift in Sources */,
 				D94C9B4020CAFE4E002D7679 /* AppDelegate.swift in Sources */,
+				D94C9B5320CAFF83002D7679 /* CustomColor.swift in Sources */,
+				D92247FA20CC528100BB64E5 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +409,7 @@
 		};
 		D94C9B4F20CAFE4E002D7679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D380A4DBC9FD125304683A32 /* Pods-Resturant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +425,7 @@
 		};
 		D94C9B5020CAFE4E002D7679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB06514C2E8F87F830DCE52B /* Pods-Resturant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
